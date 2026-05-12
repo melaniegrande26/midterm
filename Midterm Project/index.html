@@ -2,57 +2,87 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Melanie Grande -- Midterm Project</title>
-	<link rel="stylesheet" href="style.css">
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WLBE5JDZS6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<title>Melanie Grande -- Home</title>
+	<link rel="stylesheet" href="style2.css">
 
-  gtag('config', 'G-WLBE5JDZS6');
-</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WLBE5JDZS6"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'G-WLBE5JDZS6');
+	</script>
 
 </head>
 
 <body>
 
 	<header>
-		<section class="name-title">
-			<h1>Melanie Grande</h1>
-		</section>
 		
-		<div class="picture-me">
-			<img src="photo.jpg" alt="Cartoon Melanie" title=" Melanie">
-		</div>
-		<section class="nav-box">	
-			<nav>
+		<nav class="navbar">
+			<h1>Melanie Grande</h1>
+
+			<button class="menu-btn" id="menubtn">=</button>
+			<div class="nav-links" id="nav-links">
 				<a href="index.html">Home</a>
 				<a href="about.html">About</a>
 				<a href="work.html">Work</a>
+				<a href="interests.html">Interests</a>
 				<a href="contact.html">Contact</a>
-			</nav>
+			</div>
+		</nav>
+
+		<section class="intro">
+			<img src="photo.jpg" alt="Cartoon Melanie">
+			<div>
+				<h2>Hello Everyone, I'm Melanie Grande</h2>
+				<p> 
+					I'm a 2nd year Hofstra University student studying Information Technology with a minor in Business Analytics. I enjoy creating websites, solving problems, and learning how technology can support and organizations.
+				</p>
+				<a class="button" href="work.html">View My Work</a>
+			</div>
 		</section>
+	
 	</header>
 
 	<main>
 
-		<section class="section-box">
+		<section class="card-box">
 			<h2>So... What is this and Who am I?</h2>
-			<p>I am a 2nd year Hofstra University student majoring in Information Technology with a minor in Business Analytics. I have always been interested in technology and how it can support people and different companies. I've enjoyed learning being able to create projects and seeing my skills improve along the way. It is the idea of creating something and seeing it come to life that really inspires me to contiune on creating programs. I am dependable and focused on growing professionally through my coursework and hands-on experience. I'm contiuning on developing my communication and technical skills for future roles. With this website, I'm hoping to demonstrate my codeing skills and hopefully allow others to get to know me a little bit more. </p>
+			<p>
+				I am a 2nd year Hofstra University student majoring in Information Technology with a minor in Business Analytics. I have always been interested in technology and how it can support people and different companies. I've enjoyed learning being able to create projects and seeing my skills improve along the way. It is the idea of creating something and seeing it come to life that really inspires me to contiune on creating programs. I am dependable and focused on growing professionally through my coursework and hands-on experience. I'm contiuning on developing my communication and technical skills for future roles. With this website, I'm hoping to demonstrate my codeing skills and hopefully allow others to get to know me a little bit more. 
+			</p>
 		</section>
 
-		<section class="section-box">
-			<h2>Featured</h2>
-			<p>Communication, Teamwork, Time management, Problem solving, HTML/CSS, Beginner coder</p>
+		<section class="card-box">
+			<h2>Skills</h2>
+			<div class="skills">
+				<span>Communication</span>
+				<span>Teamwork</span>
+				<span>HTML/CSS</span>
+				<span>Problem Solving</span>
+				<span>Time Management</span>
+			</div>
 		</section>
 
 	</main>
 
 	<footer class="footer">
+
+		<div class="footer-menu">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="work.html">Work</a>
+				<a href="interests.html">Interests</a>
+				<a href="contact.html">Contact</a>
+		</div>
+
 		<p>© 2026 Melanie Grande</p>
+
 	</footer>
+
+	<script src="script.js"></script>
 
 </body>
 </html>
