@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Melanie Grande -- Interests</title>
+	<link rel="stylesheet" href="style2.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WLBE5JDZS6"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'G-WLBE5JDZS6');
+	</script>
+
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+			<h1>Melanie Grande</h1>
+
+			<button class="menu-btn" id="menubtn">=</button>
+
+			<div class="nav-links" id="nav-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="work.html">Work</a>
+				<a href="interests.html">Interests</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</nav>		
+	</header>
+
+	<section class="in-heading">
+		<h2>Interests</h2>
+
+		<p>
+			Use the dropdown menu below to filter my interests.
+		</p>
+	</section>
+
+	<section class="dropdown-section">
+
+		<select id="category-filter" class="filter">
+
+			<option value="">All</option>
+			<option value="Creative">Creative</option>
+			<option value="Hobbies">Hobbies</option>
+			<option value="School">School</option>
+			<option value="Job">Job</option>
+
+		</select>
+
+		<p id="result-count"></p>
+
+	</section>
+
+	<main>
+		<div id="results-con" class="results-container"></div>
+
+	</main>
+
+	<footer class="footer">
+
+		<div class="footer-menu">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="work.html">Work</a>
+				<a href="interests.html">Interests</a>
+				<a href="contact.html">Contact</a>
+		</div>
+
+		<p>© 2026 Melanie Grande</p>
+
+	</footer>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
